@@ -5,6 +5,8 @@
   "private": true,
   "sideEffects": false,
   "type": "module",
+  "module": "./src/index.ts",
+  "main": "./src/index.ts",
   "homepage": "http://glmatrix.net",
   "license": "MIT",
   "bugs": {
@@ -27,7 +29,6 @@
   "scripts": {
     "build": "tsc",
     "build-docs": "typedoc src/index.ts",
-    "bundle": "node scripts/bundle.mjs",
     "watch": "tsc --watch",
     "test": "vitest run"
   },
