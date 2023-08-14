@@ -1,6 +1,6 @@
 {
-  "version": "4.0.0",
-  "name": "gl-matrix",
+  "version": "4.0.1",
+  "name": "ts-gl-matrix",
   "description": "Javascript Matrix and Vector library for High Performance 3D web apps",
   "private": true,
   "sideEffects": false,
