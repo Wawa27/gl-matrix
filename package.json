@@ -4,8 +4,9 @@
   "description": "Javascript Matrix and Vector library for High Performance 3D web apps",
   "sideEffects": false,
   "type": "module",
-  "module": "./src/index.ts",
-  "main": "./src/index.ts",
+  "module": "./dist/src/index.js",
+  "main": "./dist/src/index.js",
+  "types": "./dist/src/index.d.ts",
   "homepage": "http://glmatrix.net",
   "license": "MIT",
   "bugs": {
